@@ -16,7 +16,7 @@ For prerequisites, environment setup, step-by-step guide and instructions, pleas
 $ git clone  https://github.com/sfc-gh-jlim/sfguide-getting-started-snowpark-python-sagemaker.git
 
 ## Snowflake Snowpark & Python 3.8
-$conda create --name py38_env --override-channels -c https://repo.anaconda.com/pkgs/snowflake python=3.8 pandas snowflake-snowpark-python notebook scikit-learn matplotlib plotly
+$ conda create --name py38_env --override-channels -c https://repo.anaconda.com/pkgs/snowflake python=3.8 pandas snowflake-snowpark-python notebook scikit-learn matplotlib plotly
 
 ### Streamlit (pip install is required after conda install)
 $ pip install streamlit
