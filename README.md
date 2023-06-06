@@ -12,7 +12,7 @@ For prerequisites, environment setup, step-by-step guide and instructions, pleas
 ## Additional Commands required to execute in your SageMaker Terminals 
 
 ## SageMaker System Terminal
-###Git clone repo
+### Git clone repo
 $ git clone  https://github.com/sfc-gh-jlim/sfguide-getting-started-snowpark-python-sagemaker.git
 
 ## Snowflake Snowpark & Python 3.8
@@ -29,8 +29,10 @@ $ conda create --name py38_env --override-channels -c https://repo.anaconda.com/
 
 ### Run your streamlit app in your SageMaker Image Terminal
 $ cd sfguide-getting-started-snowpark-python-sagemaker
+
 $ streamlit run app.py
 
 ### Access your streamlit app through SageMaker Jupyter Proxy
 Your streamlit app can be access at the following url, take note of your own SageMaker Domain URL:
-https://d-guoppzqrmqwd.studio.us-east-1.sagemaker.aws/jupyter/default/proxy/8501/
+
+https://your_sage_maker_domain.studio.us-east-1.sagemaker.aws/jupyter/default/proxy/8501/
