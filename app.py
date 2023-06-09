@@ -14,7 +14,7 @@ def create_session():
         "user"        :"",
         "host": "xxx.ap-southeast-1.snowflakecomputing.com", # e.g. "sn00111.snowflakecomputing.com",
         "password"    :"",
-        "role": "SYSADMIN",
+        "role": "ACCOUNTADMIN",
         "database": "HOL_DB",
         "schema": "PUBLIC",
         "warehouse": "HOL_WH"
