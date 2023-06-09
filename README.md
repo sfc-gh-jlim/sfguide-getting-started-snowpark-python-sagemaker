@@ -24,8 +24,9 @@ $ pip install streamlit
 ### Install Plotly (If we have any issues from the conda install)
 $ pip install plotly==5.14.1
 
+## SageMaker Image Terminal
 ### Snowflake Snowpark & Python 3.8
-$ conda create --name py38_env --override-channels -c https://repo.anaconda.com/pkgs/snowflake python=3.8 pandas snowflake-snowpark-python notebook scikit-learn cachetools
+$ conda create --name py38_env --override-channels -c https://repo.anaconda.com/pkgs/snowflake python=3.8 pandas snowflake-snowpark-python notebook scikit-learn matplotlib cachetools
 
 ### Run your streamlit app in your SageMaker Image Terminal
 $ cd sfguide-getting-started-snowpark-python-sagemaker
